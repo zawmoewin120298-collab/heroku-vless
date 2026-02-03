@@ -1,0 +1,30 @@
+{
+    "inbounds": [
+        {
+            "port": 3000, 
+            "protocol": "vless",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "f282b878-8711-45a1-8c69-5564172123c1",
+                        "level": 0,
+                        "email": "love@gemini.com"
+                    }
+                ],
+                "decryption": "none"
+            },
+            "streamSettings": {
+                "network": "ws",
+                "wsSettings": {
+                    "path": "/your-path"
+                }
+            }
+        }
+    ],
+    "outbounds": [
+        {
+            "protocol": "freedom"
+        }
+    ]
+}
+
